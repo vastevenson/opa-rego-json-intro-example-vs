@@ -1,0 +1,8 @@
+version: '3'
+services:
+ opa:
+   build: ./ # Dockerfile local dir
+   ports:
+     - "8181:8181"
+
+     
